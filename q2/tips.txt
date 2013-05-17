@@ -1,0 +1,1 @@
+author mentioned alpha-beta pruning, but can't remember the detail. 

@@ -1,0 +1,10 @@
+google parallel connected components for more references. 
+
+parallelizing introduced: 
+
+1. randomly select half of the nodes as root. 
+2. re-label nodes that connected to roots as the label of the root it connected to. 
+3. remove the edges of roots and their leaves. (remove edges between nodes that shares common label)
+4. relink existing edge to root nodes.
+5. repeat after all edges are removed. 
+6. the number of nodes whose label matches its index is the number of connected components. 
